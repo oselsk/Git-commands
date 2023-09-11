@@ -1,0 +1,2 @@
+ax.set_xticks(df.index)
+ax.set_xticklabels([x.date() for x in df.index],rotation=90)
